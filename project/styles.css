@@ -1,0 +1,35 @@
+/* css pre Main.java */
+GridPane {
+    -fx-grid-lines-visible: false;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-padding: 5px;
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+}
+
+GridPane Label, Spinner, TextField, ColorPicker {
+    -fx-pref-width: 150;
+    -fx-alignment: center;
+}
+
+GridPane Button {
+    -fx-pref-width: 300;
+}
+
+/* css pre GameOfLife.java */
+VBox {
+    -fx-alignment: bottom-center;
+    -fx-spacing: 1;
+    -fx-pref-width: 75;
+}
+
+VBox Button {
+    -fx-pref-width: 75;
+}
+
+TilePane {
+    -fx-padding: 2;
+    -fx-hgap: 1;
+    -fx-vgap: 1;
+}
